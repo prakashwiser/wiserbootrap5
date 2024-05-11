@@ -1,0 +1,272 @@
+@font-face {
+  font-family: "PlusJakartaSans";
+  src: url(../assets/fonts/PlusJakartaSans-Regular.ttf);
+}
+:root {
+  --brandcolor: #1e30f3;
+  --textcolor: #7f758e;
+}
+body {
+  font-family: "PlusJakartaSans";
+  font-size: 18px;
+}
+.Bootstrap {
+  font-weight: 700;
+  color: var(--brandcolor) !important;
+  font-size: 21px;
+}
+.navbar-collapse {
+  font-weight: 600;
+}
+
+.DESIGN,
+.business {
+  letter-spacing: 1px;
+}
+.DESIGN {
+  background-image: linear-gradient(to top right, #1e30f3, #c8208f);
+  padding: 1px 0px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.business {
+  font-size: 30px;
+  color: #7f758e;
+}
+.online {
+  font-size: 70px;
+  font-weight: bolder;
+  line-height: 75px;
+}
+.btn-button {
+  font-weight: 600;
+  padding: 13px 50px;
+  border-radius: 10px;
+}
+.btn-blue {
+  background-color: var(--brandcolor);
+}
+.btn-blue:hover {
+  background-color: #1726d3;
+}
+.btn-outline-black {
+  border: 1px solid black;
+}
+.btn-outline-black:hover {
+  background-color: black;
+  color: white;
+}
+.online {
+  background: linear-gradient(#1e30f3, #cf23cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.About,
+.socialicons,
+.resume {
+  background: linear-gradient(to right bottom, #1e30f3, #cf23cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 48px;
+  font-weight: bold;
+}
+.resum {
+  background: linear-gradient(to right bottom, #1e30f3, #cf23cf);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 35px;
+  font-weight: bold;
+}
+.downloadicon {
+  font-size: 10px;
+}
+.grow {
+  font-size: 22px;
+}
+.ipsa,
+.Experience {
+  background-color: #f8f9fa;
+}
+.socialicons {
+  font-size: 40px !important;
+}
+.terms {
+  color: var(--brandcolor);
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.Experiences {
+  color: var(--brandcolor);
+}
+.Download {
+  background-color: #1e30f3;
+  color: white;
+  padding: 15px 18px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.Download:hover{
+  background-color: #1e30f3;
+  color: white;
+}
+.backgrounshowdow {
+  box-shadow: 10px;
+}
+.years,
+.wep {
+  font-weight: 600;
+}
+.years {
+  color: #1e30f3;
+  font-size: 18px;
+}
+.Present {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+.Lorem {
+  font-size: 18px;
+}
+.Industries {
+  border-radius: 15px;
+}
+.year {
+  font-size: 16px;
+  color: #e5137c;
+  font-weight: 600;
+}
+.Presentt {
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  width: 70%;
+}
+.together{
+  height: 200px;
+  background-color: rgb(136, 0, 255); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right,#1e30f3, #cf23cf);
+  font-size: 60px;
+  font-weight: bold;
+  height: 372px;
+}
+.contact{
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+}
+.contact:hover{
+background-color: white;
+color: black;
+}
+.build{
+line-height: 60px;
+}
+.signfrom{
+  height: 990px;
+}
+.work{
+  background-color:rgb(121, 121, 243) !important;
+  font-size: 23px;
+  color: #f3f3f3;
+  padding: 9px !important;
+  border-radius: 12px !important;
+  /* font-weight: 600; */
+}
+@media (min-width: 300px) {
+  .DESIGN {
+    width: 70%;
+    font-size: 11px;
+  }
+  .online {
+    width: 100%;
+    font-size: 33px;
+  }
+}
+@media (min-width: 568px) {
+  .DESIGN {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .online {
+    width: 100%;
+    font-size: 50px;
+  }
+  .DESIGN {
+    width: 47%;
+    font-size: 13px;
+  }
+}
+@media (min-width: 992px) {
+  .DESIGN {
+    width: 50%;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  .online {
+    height: 182px;
+    line-height: 75px;
+    font-size: 65px;
+  }
+  .DESIGN {
+    width: 56%;
+  }
+  .MARKETING {
+    height: 600px;
+  }
+}
+@media (min-width: 1400px) {
+  .DESIGN {
+    width: 48%;
+  }
+}
+@media (max-width: 1200px) {
+  .MARKETING {
+    align-items: center;
+  }
+  .DESIGN {
+    margin: auto;
+  }
+  .business {
+    display: flex;
+    justify-content: center;
+  }
+  .business {
+    font-size: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .Present {
+    text-align: center;
+  }
+  .Download {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .business {
+    font-size: 20px;
+  }
+  .online {
+    font-size: 24px;
+  }
+  .btn-blue,
+  .btn-outline-black {
+    padding: 15px 110px;
+  }
+  .DESIGN {
+    width: 85%;
+  }
+  .Presentt{
+    width: 100%;
+  }
+  .Download{
+  padding: 3px 3px;
+  }
+}
