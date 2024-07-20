@@ -184,11 +184,16 @@ body {
     width: 100%;
     font-size: 33px;
   }
+  .resumeimg{
+    width: 100%;
+    border-radius: 10px;
+  }
 }
 @media (min-width: 568px) {
   .DESIGN {
     width: 60%;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -212,6 +217,15 @@ body {
   .submitbtn {
     width: 25%;
   }
+  .aboutself{
+    width: 50%;
+  }
+  .resumeimg{
+    height:600px;
+    width: 600px;
+    border-radius: 10px;
+    
+  }
 }
 @media (min-width: 1200px) {
   .online {
@@ -220,7 +234,7 @@ body {
     font-size: 65px;
   }
   .DESIGN {
-    width: 56%;
+    width: 20%;
   }
   .MARKETING {
     height: 600px;
@@ -228,7 +242,7 @@ body {
 }
 @media (min-width: 1400px) {
   .DESIGN {
-    width: 48%;
+    width: 38%;
   }
 }
 @media (max-width: 1200px) {
@@ -267,7 +281,7 @@ body {
     padding: 15px 110px;
   }
   .DESIGN {
-    width: 85%;
+    width: 70%;
   }
   .Presentt {
     width: 100%;
