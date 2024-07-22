@@ -92,6 +92,9 @@ body {
 .socialicons {
   font-size: 40px !important;
 }
+.textblack{
+  color: black;
+}
 .terms {
   color: var(--brandcolor);
   font-size: 16px;
